@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+body{
+    font-family: 'Hiragino Kaku Gothic Pro','Meiryo','sans-serif';
+    font-size: 15px;
+}
+
+
+ /* ヘッダー */
+
+/* ロゴ */
+.area_logo_header {
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+.name {
+    display: flex;
+}
+/* フォーム */
+.wrap_input{
+    padding: 13px 0 0 22px;
+}
+.search{
+    height: 30px;
+    width: 558px;
+    background: url(img/icons8-search-50.png);
+    background-color: #f0f0f0;
+    font-size: 16px;
+    padding: 0 0 0 16px;   
+}
+.area_nav_header {
+    margin-left: auto; 
+}
+/* リストナビ */
+.list_nav_header { 
+    display: flex;
+    padding: 24px 25px 0 0;
+    justify-content: flex-end;
+}
+.list_nav_header >li+li {
+    margin-left: 21px;
+}
+/* リストナビ_サブ */
+.list_nav_sub_header {
+   display: flex; 
+   padding: 30px 0 0 137px;
+   border-bottom: 1px solid #ccc;
+   padding-bottom: 14px; 
+}
+.list_nav_sub_header > li+li {
+   margin-left: 45px; 
+}
+.top-wrapper {
+    padding: 40px 116px;
+}
+/* メイン */
+.main-wrapper {
+    font-size: 20px;
+    padding: 0 116px;
+}
+
