@@ -24,7 +24,8 @@ body{
 .search{
     height: 30px;
     width: 558px;
-    background: url(img/icons8-search-50.png);
+    background: url(/Users/daifuku/Desktop/html/img/icons8-search-50.png) right center no-repeat;
+    background-size: 20px 20px;
     background-color: #f0f0f0;
     font-size: 16px;
     padding: 0 0 0 16px;   
@@ -33,6 +34,7 @@ body{
     margin-left: auto; 
 }
 /* リストナビ */
+a{text-decoration: none;}
 .list_nav_header { 
     display: flex;
     padding: 24px 25px 0 0;
@@ -51,12 +53,32 @@ body{
 .list_nav_sub_header > li+li {
    margin-left: 45px; 
 }
+/* 画像 */
 .top-wrapper {
     padding: 40px 116px;
+}
+.top-wrapper img {
+    border-radius: 10px;
 }
 /* メイン */
 .main-wrapper {
     font-size: 20px;
     padding: 0 116px;
 }
-
+/* メイン画像　*/
+.list_image {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+.list_image > li {
+    width: 20%; 
+}
+.list_image img {
+    width: 100%;
+    height: 300px;
+}
+.flex-item {
+    flex-basis: 100%;
+}
+ul{list-style: none;}
