@@ -7,7 +7,12 @@ body{
 
 
  /* ヘッダー */
-
+.header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+}
 /* ロゴ */
 .area_logo_header {
     margin-left: 25px;
@@ -34,7 +39,7 @@ body{
     margin-left: auto; 
 }
 /* リストナビ */
-a{text-decoration: none;}
+a{text-decoration: none;} 
 .list_nav_header { 
     display: flex;
     padding: 24px 25px 0 0;
@@ -69,7 +74,20 @@ a{text-decoration: none;}
 .list_image {
     display: flex;
     flex-wrap: wrap;
-    padding: 15px;
+    margin-top: 15px;
+}
+.image {
+    position: relative;
+}
+.bottom-left {
+    position: absolute;
+    bottom: 20px;
+    left: 11px;
+    color: #fff;
+    width: 83px;
+    height: 32px;
+    background-color: #666;
+    font-size: 17px;
 }
 .list_image > li {
     width: 20%; 
@@ -81,4 +99,24 @@ a{text-decoration: none;}
 .flex-item {
     flex-basis: 100%;
 }
-ul{list-style: none;}
+ul{list-style: none;}  
+/* 概要欄 */
+.menu-wrapper {
+    display: flex;
+    float:left;
+    margin-top: 100px;
+    width: 290px;
+    padding: 0 34px;
+}
+.menu-text {
+    line-height: 28px;
+}
+a {color: #333;}
+.sub {
+    float:left;
+    margin-top:100px;
+    margin-left: 69px;
+    width: 350px;
+    line-height: 28px;
+}
+li{list-style: none;}
