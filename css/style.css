@@ -33,8 +33,10 @@ body{
     background-size: 20px 20px;
     background-color: #f0f0f0;
     font-size: 16px;
-    padding: 0 0 0 16px;   
+    padding: 0 0 0 16px;
+    border-radius: 5px;   
 }
+/* ナビゲーション */
 .area_nav_header {
     margin-left: auto; 
 }
@@ -50,6 +52,8 @@ a{text-decoration: none;}
 }
 /* リストナビ_サブ */
 .list_nav_sub_header {
+    font-weight: 510;
+    font-size: 14px;
    display: flex; 
    padding: 30px 0 0 137px;
    border-bottom: 1px solid #ccc;
@@ -57,6 +61,9 @@ a{text-decoration: none;}
 }
 .list_nav_sub_header > li+li {
    margin-left: 45px; 
+}
+span {
+    color: #ff333f;
 }
 /* 画像 */
 .top-wrapper {
@@ -68,26 +75,30 @@ a{text-decoration: none;}
 /* メイン */
 .main-wrapper {
     font-size: 20px;
+    font-weight: 700;
     padding: 0 116px;
+    color: #666;
 }
 /* メイン画像　*/
 .list_image {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 15px;
+    margin-top: 20px;
+    padding: 0 100px;
 }
 .image {
     position: relative;
 }
 .bottom-left {
     position: absolute;
-    bottom: 20px;
-    left: 11px;
+    bottom: 12px;
     color: #fff;
-    width: 83px;
-    height: 32px;
-    background-color: #666;
-    font-size: 17px;
+    padding: 9px;
+    background-color: #2226;
+    font-size: 18px;
+    font-weight: 900;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 .list_image > li {
     width: 20%; 
@@ -107,6 +118,7 @@ ul{list-style: none;}
     margin-top: 100px;
     width: 290px;
     padding: 0 34px;
+  /*  background-color: #e5e5e5; */
 }
 .menu-text {
     line-height: 28px;
@@ -118,5 +130,6 @@ a {color: #333;}
     margin-left: 69px;
     width: 350px;
     line-height: 28px;
+  /*  background-color: #e5e5e5; */
 }
 li{list-style: none;}
